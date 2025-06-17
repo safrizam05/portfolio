@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Personal Portfolio - Safri Rafiq</title>
-	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-	<link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<nav class="sidebar-nav">
+    <header>
+        <nav class="sidebar-nav">
 			<ul>
 				<li>
 					<a href="#profile" data-tooltip="Profile">
@@ -38,91 +38,66 @@
 				</li>
 			</ul>
 		</nav>
-	</header>
+    </header>
 
-	<main>
-		<!-- Profile Section -->
+    <main>
+        <!-- Profile Section -->
 		<section id="profile" class="section">
 			<div class="container">
 				<div class="profile-content">
 					<div class="profile-image-container">
-						<img id="profile-pic" src="C:\Users\pf3xr\OneDrive\Pictures\Saved Pictures/safri.jpeg" alt="Profile Picture" class="profile-image" />
+						<img id="profile-pic" src="" alt="Profile Picture" class="profile-image">
 						<div class="profile-contact">
-							<p><i class="fas fa-envelope"></i> <span id="profile-email">safri.rafiq@email.com</span></p>
-							<p><i class="fas fa-phone"></i> <span id="profile-phone">+62 812-2769-3170</span></p>
-							<div class="social-links" id="social-links">
-								<a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-								<a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-							</div>
-							<a href="CV_SafriRafiq.pdf" id="cv-download" class="cv-download-btn" title="Download CV">
+							<p><i class="fas fa-envelope"></i> <span id="profile-email"></span></p>
+							<p><i class="fas fa-phone"></i> <span id="profile-phone"></span></p>
+							<div class="social-links" id="social-links"></div>
+							<a href="#" id="cv-download" class="cv-download-btn" title="Download CV">
 								<i class="fas fa-file-pdf"></i>
 							</a>
 						</div>
 					</div>
 					<div class="profile-info">
-						<h1 id="profile-name">Safri Rafiq</h1>
-						<p id="profile-description">Saya adalah mahasiswa Teknik Elektronika yang antusias dalam bidang teknologi, kontrol sistem, dan pengembangan perangkat lunak berbasis web maupun embedded.</p>
-						<div class="skills-container" id="skills-container">
-							<h3>Skills</h3>
-							<div class="skills-grid" id="skills-grid">
-								<span>HTML</span>
-								<span>CSS</span>
-								<span>JavaScript</span>
-								<span>Arduino</span>
-								<span>Proteus</span>
-								<span>MATLAB</span>
+						<h1 id="profile-name"></h1>
+						    <p id="profile-description"></p>
+    						<!-- Add this skills section -->
+							<div class="skills-container" id="skills-container">
+								<h3>Skills</h3>
+								<div class="skills-grid" id="skills-grid"></div>
 							</div>
-						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Education Section -->
-		<section id="education" class="section">
-			<div class="container">
-				<h2>Education</h2>
-				<div class="education-list" id="education-list">
-					<div class="education-item">
-						<h3>Politeknik Negeri Semarang</h3>
-						<p>Teknik Elektronika – 2022 s.d. Sekarang</p>
-					</div>
-				</div>
-			</div>
-		</section>
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-list" id="education-list"></div>
+            </div>
+        </section>
 
-		<!-- Experience Section -->
-		<section id="experience" class="section">
-			<div class="container">
-				<h2>Work Experience</h2>
-				<div class="experience-list" id="experience-list">
-					<div class="experience-item">
-						<h3>Magang di CV Pandu Putra Engineering</h3>
-						<p>Melakukan pengembangan sistem kontrol berbasis Arduino dan troubleshooting perangkat elektronika untuk sistem industri.</p>
-						<p><em>Semester 5</em></p>
-					</div>
-				</div>
-			</div>
-		</section>
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Work Experience</h2>
+                <div class="experience-list" id="experience-list"></div>
+            </div>
+        </section>
 
-		<!-- Projects Section -->
-		<section id="projects" class="section">
-			<div class="container">
-				<h2>Research and Projects</h2>
-				<div class="projects-grid" id="projects-grid">
-					<!-- Tambahkan daftar proyek di sini -->
-				</div>
-			</div>
-		</section>
-	</main>
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Research and Projects</h2>
+                <div class="projects-grid" id="projects-grid"></div>
+            </div>
+        </section>
+    </main>
 
-	<footer>
-		<p>&copy; <span id="current-year"></span> Safri Rafiq Portfolio</p>
-	</footer>
+    <footer>
+        <p>&copy; <span id="current-year"></span> Aminuddin Rizal Portfolio</p>
+    </footer>
 
-	<script>
-		document.getElementById('current-year').textContent = new Date().getFullYear();
-	</script>
-	<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
