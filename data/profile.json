@@ -1,11 +1,11 @@
 {
     "name": "Safri Rafiq",
-    "profileImage": "C:\Users\pf3xr\OneDrive\Pictures\Saved Pictures\safri.jpeg",
+    "profileImage": "images\safri.jpeg",
     "email": "safrizam05@gmail.com",
     "phone": "+62 81227693170",
-    "socialMedia": [
+    "socialMedia":
         
     "skills": [
-        {"name": "Electronics Engineering", },
+        {"name": "Electronics Engineering" },
     ]
 }
